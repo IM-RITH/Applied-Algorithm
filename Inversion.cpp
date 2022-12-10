@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// it's still partial.. chua xong 
+// it's still partial.. chua xong :((
 int n, a[100000], result = 0;
 const int mo = 1e9 + 7;
 int tem[100000];
