@@ -1,3 +1,34 @@
+// Một mạng truyền thông G bao gồm N máy chủ 1,2,...,N được kết nối với nhau bơi M đường truyền ( 2 chiều ). Giữa 2 máy chủ i và j có thể có đường truyền hoặc không có. trong trường hợp giữa 2 máy chủ i và j có đường truyền thì c(i,j) là chi phí thuê đường truyền này.
+// Một công ty cần tính toán phương án thuê 1 số đường truyền nào đó của mạng G để kết nối liên thông một số máy chủ trong tập R(R là tập con của {1, 2,..., N}). Hãy tính toán phương án thuê đường truyền với tổng chi phí thuê là ít nhất. 
+// Input
+// dòng 1: ghi 2 số nguyên dương N và M(1<=N, M<=30).
+// dòng 2 đến M: mỗi dòng ghi 3 số nguyên dương i,j,w: có đường truyền giữa i và j với chi phí thuê là w(w=c(i,j)).
+// dòng M+2: ghi số nguyên dương K.
+// dòng M+3: ghi k số nguyên dương đôi một khác nhau là chỉ số của các máy chủ trong R.
+// Output
+// ghi ra tổng chi phí thuê nhỏ nhất tìm được. Dùng c++ để viết bài này.
+// Dùng c++ để giải bài này.
+// test 
+
+// input
+// 6 10
+// 1 2 1
+// 1 3 2
+// 1 5 5
+// 2 4 7
+// 2 5 6
+// 3 4 30
+// 3 5 4
+// 4 5 8
+// 4 6 3
+// 5 6 7
+// 4
+// 1 2 3 4
+
+// output
+// 10
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
